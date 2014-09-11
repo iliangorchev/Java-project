@@ -1,0 +1,20 @@
+/**
+ * 
+ */
+package com.isoft;
+
+/**
+ * @author Ilian
+ *
+ */
+public class _1_TriangleArea {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

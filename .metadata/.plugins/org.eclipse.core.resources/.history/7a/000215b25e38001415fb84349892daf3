@@ -1,0 +1,37 @@
+package com.isoft;
+
+import java.text.DecimalFormat;
+import java.util.Locale;
+import java.util.Scanner;
+
+/**
+ * @author Ilian
+ *
+ */
+public class _4_SmallestOfThreeNumbers {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		Locale.setDefault(Locale.US);
+		DecimalFormat df = new DecimalFormat("0.######");
+		
+
+		System.out.println("Enter three numbers: ");
+		double firstNum = scanner.nextDouble();
+		double secondNum = scanner.nextDouble();
+		double thirdNUm = scanner.nextDouble();
+		double smallestNum = smallestNumber(firstNum, secondNum, thirdNUm);
+		System.out.println(df.format(smallestNum));
+	}
+
+	public static double smallestNumber(double a, double b, double c) {
+		double smallest = a;
+		if (smallest >= b) {
+			smallest = b;
+		}
+		if (smallest >= c) {
+			smallest = c;
+		}
+		return smallest;
+	}
+}

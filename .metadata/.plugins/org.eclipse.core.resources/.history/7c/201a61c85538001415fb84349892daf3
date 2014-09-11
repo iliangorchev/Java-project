@@ -1,0 +1,18 @@
+package com.isoft;
+
+/**
+ * @author Ilian
+ *
+ */
+public class _3_PointsInsideAFigure {
+
+	public static void main(String[] args) {
+		// TODO Problem 3. Points inside a Figure
+		// Write a program to check whether a point is inside or outside of the
+		// figure below. The point is given as a pair of floating-point numbers,
+		// separated by a space. Your program should print "Inside" or
+		// "Outside". Examples:
+
+	}
+
+}

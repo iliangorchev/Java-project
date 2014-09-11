@@ -1,0 +1,26 @@
+package com.isoft;
+
+import java.util.Scanner;
+
+/**
+ * @author Ilian
+ *
+ */
+
+public class _7_Count_of_Bits_One {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		int number = scanner.nextInt();
+		int ones = 0;
+		while (number > 0) {
+		int bit = number & 1;
+		if (bit == 1) {
+		ones++;
+		}
+		number >>= 1;
+		}
+		System.out.println(ones);
+	}
+
+}

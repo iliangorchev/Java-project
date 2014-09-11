@@ -1,0 +1,23 @@
+package com.isoft;
+
+import java.text.DecimalFormat;
+import java.util.Locale;
+import java.util.Scanner;
+
+/**
+ * @author Ilian
+ *
+ */
+public class _4_SmallestOfThreeNumbers {
+
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter three numbers: ");
+		float a = input.nextFloat();
+		float c = input.nextFloat();
+		float tempResult = Math.min(a, b);
+		float result = Math.min(tempResult, c);
+		System.out.println(result);
+	}
+}

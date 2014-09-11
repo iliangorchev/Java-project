@@ -1,0 +1,27 @@
+package com.isoft;
+
+import java.util.Scanner;
+
+/**
+ * @author Ilian
+ *
+ */
+
+public class _7_Count_of_Bits_One {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Enter number n: ");
+		int number = scanner.nextInt();
+		bitCounter(number);
+		System.out.println(Integer.toBinaryString(number));
+		System.out.println(Integer.bitCount(number));
+	}
+
+	public static void bitCounter(int number) {
+		String binaryNumber = Integer.toBinaryString(number);
+		
+		System.out.println(binaryNumber);
+	}
+
+}

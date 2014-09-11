@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.isoft._1_TriangleArea&apos; to &apos;_1_RectangleArea&apos;&#x0D;&#x0A;- Original project: &apos;JavaSyntax&apos;&#x0D;&#x0A;- Original element: &apos;com.isoft._1_TriangleArea&apos;&#x0D;&#x0A;- Renamed element: &apos;com.isoft._1_RectangleArea&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;_1_TriangleArea&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.isoft{_1_TriangleArea.java[_1_TriangleArea" matchStrategy="1" name="_1_RectangleArea" qualified="false" references="true" similarDeclarations="false" stamp="1410210680022" textual="false" version="1.0"/>
+</session>

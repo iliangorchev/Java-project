@@ -1,0 +1,13 @@
+package com.isoft;
+
+public class CurrentDateTime {
+
+	/**
+	 * @author Ilian
+	 */
+
+	public static void main(String[] args) {
+
+	}
+
+}

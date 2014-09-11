@@ -1,0 +1,15 @@
+package com.isoft;
+
+
+public class PrintHometown {
+	/**
+	 * @author Ilian
+	 * 
+	 * 		
+	 */
+	public static void main(String[] args) {
+		
+		System.out.println(PrintHometown.class.getName());
+	}
+
+}
